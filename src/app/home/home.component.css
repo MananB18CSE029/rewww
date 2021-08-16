@@ -1,0 +1,73 @@
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "place day0"
+    "day1 day2"
+    "day3 day4"
+    "day5 day6";
+  grid-gap: 10px;
+  background-color: #ffffff;
+  padding: 5px;
+}
+.place {
+  grid-area: place;
+  max-width: 500px;
+  margin-left: 2mm;
+  margin-right: 2mm;
+  background-color: #ffffff;
+}
+.day0 {
+  grid-area: day0;
+  max-width: 500px;
+  margin-left: 2mm;
+  background-color: #ffffff;
+}
+.day1 {
+  grid-area: day1;
+  max-width: 500px;
+  margin-left: 2mm;
+  margin-right: 2mm;
+  background-color: #ffffff;
+}
+.day2 {
+  grid-area: day2;
+  max-width: 500px;
+  margin-left: 2mm;
+  margin-right: 2mm;
+  background-color: #ffffff;
+}
+.day3 {
+  grid-area: day3;
+  max-width: 500px;
+  margin-left: 2mm;
+  margin-right: 2mm;
+  background-color: #ffffff;
+}
+.day4 {
+  grid-area: day4;
+  max-width: 500px;
+  margin-left: 2mm;
+  margin-right: 2mm;
+  background-color: #ffffff;
+}
+.day5 {
+  grid-area: day5;
+  max-width: 500px;
+  margin-left: 2mm;
+  margin-right: 2mm;
+  background-color: #ffffff;
+}
+.day6 {
+  grid-area: day6;
+  max-width: 500px;
+  margin-left: 2mm;
+  margin-right: 2mm;
+  background-color: #ffffff;
+}
+
+.fixedbutton {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  padding: 20px;
+}

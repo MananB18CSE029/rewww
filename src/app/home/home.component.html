@@ -1,0 +1,25 @@
+<div class="grid-container">
+    <mat-card class="place">
+        <img mat-card-image src='../../assets/img.jpg'>
+        <mat-card-content>
+            {{date}} {{time}}
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-raised-button (click)="openBottomSheet()">Options</button>
+        </mat-card-actions>
+    </mat-card>
+    <!-- <mat-card class="day0">
+        <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg">
+        <mat-card-content>
+            {{date1}} {{time1}}
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-raised-button (click)="openBottomSheet()">Options</button>
+        </mat-card-actions>
+    </mat-card> -->
+</div>
+<div class="fixedbutton">
+    <button mat-mini-fab color="primary">
+        <mat-icon>refresh</mat-icon>
+    </button>
+</div>
